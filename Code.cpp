@@ -2,5 +2,8 @@
 using namespace std;
 
 int main(){
-    cout<<"Hey it's Nityanand Tamsoy"<<endl;
+    string name;
+    cout<<"Enter your name"<<endl;
+    getline(cin,name);
+    cout<<"Hey it's "<<name<<endl;
 }
